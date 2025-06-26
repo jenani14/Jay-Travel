@@ -349,7 +349,11 @@
         document.getElementById("Email").value.trim();
         let Phone =
         document.getElementById("Phone").value.trim();
-        if (FirstName === "" || LastName === "" || Email === "" || Phone)
+        if (FirstName === "" || LastName === "" || Email === "" || Phone === "") {
+            alert("please Fill All Fields!");
+        } else{
+            alert("Successfully Completed");
+        }
     }
 </script>
     
