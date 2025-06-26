@@ -114,19 +114,20 @@
         box-shadow: 0 0 10px;
         width: 400px;
         margin: 50px auto;
+        gap: 30px;
      } 
      .form-group{
         gap: 30px;
+        justify-content: center;
+        justify-content: space-around;
         
         margin: 10px 20px;
      } 
      .btn{
-        background-color: rgb(20, 166, 192);
+        background-color: rgb(3, 146, 146);
         width: 200px;
-        justify-content: center;
-        border: none;
-        
-     } 
+        margin: 10px;
+     }
     
     
     
@@ -243,7 +244,24 @@
     </div>
   </div>
 </div>
+<div class="contact-form">
+    <h2>CONTACT US</h2>
+    <div class="form-group">
+<input type="text" id="FirstName" placeholder="First Name">
+    <input type="text" id="LastName" placeholder="Last Name"> 
+    <input type="Email" id="Email" placeholder="E-mail"> 
+    <input type="text" id="phone" placeholder="phone Number">
+    <div>
+    <input type="checkbox" id="NewsLetter">
+    <label for="NewsLetter">Subscribe to our Newsletter</label>
+    </div>
+    <button class="btn" onclick="Submitform()">Sign in</button>
 
+    </div>
+    
+    </div>
+
+</div>
     
 </body>
 </html>
